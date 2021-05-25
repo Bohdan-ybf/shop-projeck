@@ -1,0 +1,80 @@
+input[type="checkbox"]:checked+label::before {
+    background-color: white;
+}
+
+input[type="checkbox"] {
+    display: none;
+
+}
+
+label:before {
+    content: "";
+    cursor: pointer;
+    display: block;
+    width: 10px;
+    height: 10px;
+    border: 1px solid white;
+    float: left;
+    margin-top: 5px;
+    margin-right: 10px;
+}
+
+.filter_divice_type {
+    font-size: 21px;
+    color: white;
+    font-weight: 100;
+    padding-left: 29px;
+    padding-top: 25px;
+}
+
+
+
+.filter_title {
+    color: white;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 33px 112px 0px 30px;
+
+}
+
+.filter_title_color {
+    color: white;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 65px 112px 0px 30px;
+}
+
+.filter_title_ram {
+    color: white;
+    font-weight: 700;
+    font-size: 21px;
+    padding: 65px 112px 0px 30px;
+}
+
+
+.filter_divice_showmore {
+    text-align: center;
+    color: white;
+    font-size: 21px;
+    font-weight: 100;
+    margin: 29px 36px 0px 37px;
+
+}
+
+.filter_divice_button {
+    color: white;
+    width: 210px;
+    height: 50px;
+    font-size: 21px;
+    font-weight: 700;
+    background: none;
+    background-color: #2c71b8;
+    border: 1px solid white;
+    margin: 30px;
+}
+
+.filter_divice_button:hover {
+    color: #2c71b8;
+    background-color: white;
+    border: 1px solid #2c71b8;
+}
