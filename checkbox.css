@@ -19,6 +19,11 @@ label:before {
     margin-right: 10px;
 }
 
+label:hover {
+    cursor: pointer;
+    border-bottom: 1px solid rgba(255, 255, 255, 0.85);
+}
+
 .filter_divice_type {
     font-size: 21px;
     color: white;
@@ -29,11 +34,13 @@ label:before {
 
 
 
+
+
 .filter_title {
     color: white;
     font-weight: 700;
     font-size: 21px;
-    padding: 33px 112px 0px 30px;
+    padding: 33px 100px 0px 30px;
 
 }
 
@@ -57,7 +64,7 @@ label:before {
     color: white;
     font-size: 21px;
     font-weight: 100;
-    margin: 29px 36px 0px 37px;
+    margin: 29px 25px 0px 37px;
 
 }
 
